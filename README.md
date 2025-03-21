@@ -39,8 +39,8 @@ Include a shell script (e.g., setup_env.sh) that:
 	•	Add the VM’s IP and credentials to your ~/.ssh/config.
 	•	Connect from VS Code to develop and run the project remotely.
 
-- Follow the guidelines provided in our class: [Task](TASK.md).
-- Check out the Contributors associated with the Task: [CONTRIBUTORS.md](CONTRIBUTORS.md).
+- Follow the [Task](TASK.md) guidelines provided in the classroom.
+- Check out the [Contributors](CONTRIBUTORS.md) associated with the Task.
 
 This simple structure ensures that new developers can clone the repository, set up
 the environment, and start working on the project quickly and safely.
