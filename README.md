@@ -3,9 +3,9 @@
 ## This repository provides a basic template for setting up a Python 3 application in a DevOps environment.
 
 ### Repository Setup
-	1.	Create a GitHub Repository named application-template.
-	2.	Protect the main branch so it can only be updated via pull requests.
-	3.	Test the Repository by creating a pull request to confirm branch protection works.
+	•	Create a GitHub Repository named application-template.
+	•	Protect the main branch so it can only be updated via pull requests.
+	•	Test the Repository by creating a pull request to confirm branch protection works.
 
 ### Required Tools
 	•	Python 3
@@ -24,9 +24,9 @@ Include a shell script (e.g., setup_env.sh) that:
 	•	Ensures your environment is ready for Python 3 development.
 
 ### Virtual Machine Setup
-	1.	Create a VM using your preferred Linux distro.
-	2.	Mount the project onto the VM (e.g., shared folder).
-	3.	Run the shell script to verify/install required tools.
+	•	Create a VM using your preferred Linux distro.
+	•	Mount the project onto the VM (e.g., shared folder).
+	•	Run the shell script to verify/install required tools.
 
 ### Python Virtual Environment
 	•	Use pipenv (or your chosen tool) to manage Python 3 dependencies:
@@ -36,10 +36,11 @@ Include a shell script (e.g., setup_env.sh) that:
 ### VS Code SSH
 	•	Install and enable OpenSSH on the VM.
 	•	Use the Remote - SSH extension in VS Code:
-	1.	Add the VM’s IP and credentials to your ~/.ssh/config.
-	2.	Connect from VS Code to develop and run the project remotely.
+	•	Add the VM’s IP and credentials to your ~/.ssh/config.
+	•	Connect from VS Code to develop and run the project remotely.
 
-See the [Task](TASK.md) presented in the class.
+- Follow the guidelines provided in our class: [Task](TASK.md).
+- Check out the Contributors associated with the Task: [CONTRIBUTORS.md](CONTRIBUTORS.md).
 
 This simple structure ensures that new developers can clone the repository, set up
 the environment, and start working on the project quickly and safely.
